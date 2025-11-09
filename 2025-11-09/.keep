@@ -1,0 +1,16 @@
+# Sleep Data Instructions for Grok Analysis (OSCAR Context)
+
+## Key Focus Areas:
+- **Settings**: Check EPAP min/max, PS, trigger levels, humid mode (e.g., Auto). Flag if ramp time >30min.
+- **Performance Metrics**: Prioritize AHI (<5 goal), leaks (<10%), SpO2 avg (>95%). Correlate with Garmin: Low deep sleep if AHI >3.
+- **Common Pitfalls**: Ignore "UA=0" if no unknowns; "Tap=Yes" means temp assist on. Notes column for subjective (e.g., "mask fit good").
+
+## Analysis Requests:
+- Summarize: Averages + trends (e.g., AHI vs. REM).
+- Alerts: If leaks >5%, suggest mask check.
+- Compare: To baseline (Oct 18, 2025: AHI 4.72, score 49).
+
+## Recent Tweaks:
+- Cycle: Adjusted to [new value, e.g., Medium] on 2025-11-09. Monitor for reduced UA events.
+
+Last Updated: 2025-11-09
